@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./styles/styles.css">
+
+    <title>gakura.dev</title>
+</head>
+
+<body>
+
+    <header id="menu" class="menu_container flex">
+        <div class="menu_content">
+            <div class="logo-section">
+                <a class="logo" href="#">gakura.dev</a>
+            </div>
+            <nav>
+                <ul class="menu_lista flex">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li class="icon_nav vertical-bar">
+                    </li>
+                    <li class="icon_nav">
+                        <a href="https://www.linkedin.com/in/gabrieliwakura/">
+                            <img class="icon_img" src="./assets/linkedin.svg" alt="Logo do LinkedIn" />
+                        </a>
+                    </li>
+                    <li class="icon_nav">
+                        <a href="https://github.com/Gakuraa">
+                            <img class="icon_img" src="./assets/github.svg" alt="Logo do Github" />
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Resto do seu código -->
+
+    <main>
+        <section id="home" class="home_container"> <!-- Adicione aqui as CLASSES -->
+            <article id="home-texto" class="home_content welcome-text"> <!-- Adicione aqui as CLASSES -->
+                <h4>Olá! Sou Gabriel.</h4>
+                <h1>Obrigado por entrar no meu portifólio.</h1>
+                <p>Aqui você pode ver meu trabalhos e meu currículo. </p>
+
+                <a class="btn" target="_blank" href="https://github.com/Gakuraa"> <!-- Adicione aqui as CLASSES -->
+                    Explore
+                </a>
+            </article>
+
+            <article id="home-imagem" class="home_content"> <!-- Adicione aqui as CLASSES -->
+                <img class="home_content_img" src="./assets/imagem1.svg" alt="Astronauta Animado">
+                <!-- Adicione aqui as CLASSES -->
+            </article>
+        </section>
+
+        <section id="sobre" class="sobre_container"> <!-- Adicione aqui as CLASSES -->
+            <img src="https://avatars.githubusercontent.com/u/113470624?v=4"
+                alt="Foto do Perfil do Github - Gabriel Iwakura">
+
+            <article id="sobre-texto"> <!-- Adicione aqui as CLASSES -->
+                <h1>Quem sou eu?</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam odit voluptates incidunt
+                    inventore rem error harum blanditiis accusamus vitae, minus fugit consequatur? Dolorum maiores magni
+                    deleniti modi sit laudantium totam!
+                </p>
+
+                <div id="sobre-github" class="sobre_github flex"> <!-- Adicione aqui as CLASSES -->
+                    <a class="btn" href="https://github.com/Gakuraa">Github</a>
+                    <p>10 Seguidores</p>
+                    <p>29 Repositórios</p>
+                </div>
+
+            </article>
+        </section>
+
+        <section id="contato" class="contato_container"> <!-- Adicione aqui as CLASSES -->
+            <article id="contato-texto" class="contato_content"> <!-- Adicione aqui as CLASSES -->
+                <h4>Me Contate</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi similique esse fuga necessitatibus,
+                    iusto alias eius perferendis qui iste minima blanditiis repellendus distinctio dolor obcaecati
+                    aliquid quod quidem incidunt quibusdam!</p>
+
+                <div id="redes-sociais" class="social_container flex"> <!-- Adicione aqui as CLASSES -->
+                    <a href="https://www.linkedin.com/in/gabrieliwakura/">
+                        <img class="social_icon" src="./assets/linkedin.svg" alt="Logo do LinkedIn" />
+                        <!-- Adicione aqui as CLASSES -->
+                    </a>
+                    <a href="https://github.com/Gakuraa">
+                        <img class="social_icon" src="./assets/github.svg" alt="Logo do Github" />
+                        <!-- Adicione aqui as CLASSES -->
+                    </a>
+                    <a href="https://myanimelist.net/profile/Gakkura">
+                        <img class="social_icon" src="./assets/saitama.svg" alt="Logo do Instagram" />
+                        <!-- Adicione aqui as CLASSES -->
+                    </a>
+                </div>
+            </article>
+
+            <form action="" method="POST">
+                <label for="nome">Nome: </label>
+                <input id="nome" type="text" name="name" placeholder="Digite seu nome" required>
+
+                <label for="email">Email: </label>
+                <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+
+                <label for="subject">Assunto: </label>
+                <input id="subject" type="text" name="subject" placeholder="Digite o título da mensagem" required>
+
+                <label for="message">Mensagem: </label>
+                <textarea id="message" name="message" placeholder="Digite sua mensagem" required></textarea>
+
+                <button class="btn" type="submit">Enviar</button> <!-- Adicione aqui as CLASSES -->
+            </form>
+        </section>
+    </main>
+
+    <footer class="flex"> <!-- Adicione aqui as CLASSES -->
+        Feito por Gabriel Iwakura 🦕 - 2024
+    </footer>
+
+</body>
+
+</html>
